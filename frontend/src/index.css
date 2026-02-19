@@ -1,0 +1,27 @@
+:root {
+  --bg-primary: #0f0f14;
+  --bg-secondary: #18181f;
+  --bg-card: #1e1e28;
+  --accent-indigo: #6366f1;
+  --accent-violet: #8b5cf6;
+  --accent-fuchsia: #d946ef;
+  --text-primary: #f4f4f5;
+  --text-secondary: #a1a1aa;
+  --border: #27272a;
+  --success: #22c55e;
+  --error: #ef4444;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+  line-height: 1.6;
+}
